@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "d9e58307-ba65-47a7-82a6-d7e656a776d9",
+		"name": "PaginationProduct",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get Pagination",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9191/products/pagination/2/50",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"products",
+						"pagination",
+						"2",
+						"50"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
